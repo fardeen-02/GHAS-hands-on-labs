@@ -2,4 +2,4 @@
 const userInput = req.query.id;
 const query = "SELECT * FROM users WHERE id = " + userInput;  
 db.execute(query); 
-AWS_ACCESS_KEY_ID = AKIAIOSFODNN7EXAMPLE
+AWS_SECRET_ACCESS_KEY = wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
